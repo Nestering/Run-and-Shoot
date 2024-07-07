@@ -358,7 +358,6 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Code/Bullet.cs"
-"Assets/Code/BulletPool.cs"
 "Assets/Code/CharacterAnimPlayer.cs"
 "Assets/Code/DataHandler.cs"
 "Assets/Code/DestroyOnAwake.cs"

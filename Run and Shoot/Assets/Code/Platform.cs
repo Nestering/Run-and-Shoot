@@ -24,7 +24,7 @@ public class Platform : MonoBehaviour
     public void StartSpawnEnemy()
     {
         UnoccupiedPoints = ListSpawnPoint;
-        SpwanEnemy(0);//обязательный спавн одного противника.
+        SpwanEnemy(0);// Обязательный спавн одного противника.
         for (int i = 1; i < ListSpawnPoint.Length; i++)
         {
             bool random = new System.Random().Next(0, 2) == 0;

@@ -122,7 +122,6 @@ public class GameController : MonoBehaviour
     public void ReloadGame()
     {
         level++;
-        print(level);
         InformationController.singleton.SaveData();
         SceneManager.LoadScene(0);
     }

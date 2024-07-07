@@ -36,18 +36,12 @@ public class Enemy : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        if (hp > 0 && hp - damage > 0)
-        {
-            hp -= damage;
-        }
-        else
-        {
-            hp = 0;
-        }
+        hp = (hp > 0 && hp - damage > 0) ? hp - damage : 0;
+
         if (hp <= 0)
         {
             GameController.Singleton.RemoveListEnemy(this);
-            Destroy(capsuleCollider);
+            capsuleCollider.enabled = false;
             animator.enabled = false;
             canvas.SetActive(false);
         }
